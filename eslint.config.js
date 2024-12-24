@@ -45,6 +45,7 @@ export default [
           argsIgnorePattern: "^_",
         },
       ],
+      "react/prop-types": "off",
     },
   },
 ];
