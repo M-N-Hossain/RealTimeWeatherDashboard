@@ -6,7 +6,7 @@ async function getCityLatLng(location) {
   };
 
   const response = await fetch(
-    `http://api.openweathermap.org/geo/1.0/direct?q=${location}&limit=1&appid=${
+    `https://api.openweathermap.org/geo/1.0/direct?q=${location}&limit=1&appid=${
       import.meta.env.VITE_WEATHER_API_KEY
     }`
   );
