@@ -55,8 +55,8 @@ function Page() {
             ) : (
                 <div
                     style={{ backgroundImage: `url('${climateImage}')` }}
-                    className="grid place-items-center h-screen bg-no-repeat bg-cover"
-                >
+                    className="grid place-items-center h-screen w-screen bg-no-repeat bg-center sm:bg-contain lg:bg-cover"
+                    >
                     <Header />
                     <main>
                         <section>
